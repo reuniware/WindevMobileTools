@@ -7,8 +7,12 @@ Pour l'instant une seule fonction est disponible, et permet d'envoyer un SMS (sa
 Pour appeler cette fonction, il faut déclarer le code suivant dans Window Mobile 25 (en procédure globale) :
 
 import com.wdlib.tools.WindevTools;
+
 public static void EnvoyerSMS(String tel, String msg)
+
 {
+
 	WindevTools.getInstance().SendSMS(getContexteApplication(), tel, msg);
+
 }
 
