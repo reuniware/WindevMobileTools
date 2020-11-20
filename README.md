@@ -1,5 +1,5 @@
 # WindevMobileTools
-Librairie facilitant le développement Android sous Windev Mobile 25
+*Librairie facilitant le développement Android sous Windev Mobile 25*
 
 Importer la librairie .AAR dans votre projet Windows Mobile 25.
 
