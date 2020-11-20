@@ -11,8 +11,6 @@ import com.wdlib.tools.WindevTools;
 public static void EnvoyerSMS(String tel, String msg)
 
 {
-
 	WindevTools.getInstance().SendSMS(getContexteApplication(), tel, msg);
-
 }
 
