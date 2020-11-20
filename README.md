@@ -15,3 +15,8 @@ Obtenir la mémoire libre en pourcentage :
 
 WindevTools.getInstance().getFreeMemoryPercentage(getContexteApplication());
 
+getTotalMemory
+
+getTotalMemory
+
+systemExec
