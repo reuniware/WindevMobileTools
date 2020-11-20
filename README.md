@@ -26,3 +26,7 @@ double mem = WindevMobileTools.getInstance().GetAvailableMemory(getContexteAppli
 # Exécuter une commande shell #
 
 String result = WindevMobileTools.getInstance().SystemExec("ls")
+
+# AndroidMgrClient.apk #
+
+Cet outil est en cours de développement et démarre un serveur de socket sur le port 8000 sur l'Android. On peut alors de connecter sur l'Android depuis en PC en ligne de commande en entrant "telnet 192.168.1.200 8000", en remplaçant "192.168.1.200" par l'adresse IP de votre téléphone Android.
