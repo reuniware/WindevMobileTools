@@ -13,16 +13,16 @@ WindevMobileTools.getInstance().SendSMS(getContexteApplication(), "+330101010101
 
 # Obtenir la mémoire libre en pourcentage #
 
-WindevMobileTools.getInstance().GetFreeMemoryPercentage(getContexteApplication());
+double mem = WindevMobileTools.getInstance().GetFreeMemoryPercentage(getContexteApplication());
 
 # Obtenir la mémoire totale #
 
-WindevMobileTools.getInstance().GetTotalMemory(getContexteApplication())
+double mem = WindevMobileTools.getInstance().GetTotalMemory(getContexteApplication())
 
 # Obtenir la mémoire disponible #
 
-WindevMobileTools.getInstance().GetAvailableMemory(getContexteApplication())
+double mem = WindevMobileTools.getInstance().GetAvailableMemory(getContexteApplication())
 
 # Exécuter une commande shell #
 
-WindevMobileTools.getInstance().SystemExec("ls")
+String result = WindevMobileTools.getInstance().SystemExec("ls")
