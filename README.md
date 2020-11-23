@@ -9,7 +9,7 @@ import com.reuniware.windevmobiletools.WindevMobileTools;
 
 # Envoi d'un SMS #
 
-WindevMobileTools.getInstance().SendSMS(getContexteApplication(), "+330101010101", "Message de test");
+WindevMobileTools.getInstance().SendSMS(getActiviteEnCours(), "+330101010101", "Message de test");
 
 # Obtenir la mémoire libre en pourcentage #
 
