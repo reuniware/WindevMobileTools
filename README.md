@@ -7,6 +7,10 @@ Et importer dans le code Java dans le projet WM25 par :
 
 import com.reuniware.windevmobiletools.WindevMobileTools;
 
+# Démarrer Chrome #
+
+WindevMobileTools.getInstance().StartChrome(getActiviteEnCours(), "https://indymedia.org/");
+
 # Envoi d'un SMS (sans la permission SEND_SMS) #
 
 WindevMobileTools.getInstance().SendSMS(getActiviteEnCours(), "+330101010101", "Message de test");
