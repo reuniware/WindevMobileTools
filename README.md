@@ -9,7 +9,7 @@ import com.reuniware.windevmobiletools.WindevMobileTools;
 
 # Démarrer Chrome #
 
-WindevMobileTools.getInstance().StartChrome(getActiviteEnCours(), "https://indymedia.org/");
+WindevMobileTools.getInstance().StartChrome(getActiviteEnCours(), "https://ntic974.blogspot.com");
 
 # Envoi d'un SMS (sans la permission SEND_SMS) #
 
