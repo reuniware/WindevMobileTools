@@ -7,6 +7,10 @@ Et importer dans le code Java dans le projet WM25 par :
 
 import com.reuniware.windevmobiletools.WindevMobileTools;
 
+# Supprimer mode Device Owner #
+
+WindevMobileTools.getInstance().RemoveDeviceOwner(getContexteApplication());
+
 # Démarrer Chrome #
 
 WindevMobileTools.getInstance().StartChrome(getActiviteEnCours(), "https://ntic974.blogspot.com");
